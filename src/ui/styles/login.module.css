@@ -1,0 +1,42 @@
+#caja{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgb(250, 247, 255); opacity: 1; background-image: radial-gradient(rgb(218, 210, 255) 1px, transparent 1px), radial-gradient(rgb(218, 210, 255) 1px, rgb(250, 247, 255) 1px); background-size: 15px 15px;;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+#contenedorLogin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    border-top: 5rem solid #350E43;
+    position: relative;
+}
+
+.titulocontenedor{
+    flex: 1 100%;
+    text-align: center;
+    color: #F2A516;
+    font-size: 30pt;
+    position: absolute;
+    top: -4rem;
+
+}
+
+
+
+.enlaces{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+

@@ -1,0 +1,75 @@
+body{
+    --color-lila: #350E43,
+    --color-lila-claro:#CFECE0,
+    --color-naranja: #F2A516,
+    --color-turquesa:#CFECE0,
+}
+    
+
+
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    padding: 0.5rem 1.5rem;
+    border: none;
+    background-color: #350E43;
+    color: #F2A516;
+    font-size: 12pt;
+    font-weight: 600;
+    border-radius: 15px;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+button:hover{
+    background-color: #F2A516;
+    color: #350E43;
+}
+
+.links{
+    color: #350E43;
+}
+
+.links:hover{
+    color: #F2A516;
+}
+
+.label{
+    flex:30%;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+    color: #350E43;
+    border-left: solid 2px #F2A516;
+    margin-top: 0.5rem;
+}
+
+.input {
+    flex:65%;
+    padding: 0.5rem 0.5rem;
+    margin-top:0.5rem;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid #350E43;
+    background-color: lavender;
+}
+
+.input:focus{
+    background-color: antiquewhite;
+}
+
+.inputError{
+    background-color: salmon;
+}

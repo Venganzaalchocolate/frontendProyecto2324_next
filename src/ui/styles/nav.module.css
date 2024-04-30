@@ -1,0 +1,21 @@
+.links{
+    color: white;
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.links:hover{
+    background-color: #F2A516;
+    border-radius: 32px;
+    padding: 10px;
+    color: #350E43;
+}
+
+.cajaNav{
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
