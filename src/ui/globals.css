@@ -47,7 +47,7 @@ button:hover{
 }
 
 .label{
-    flex:30%;
+    flex:20%;
     padding-top: 0.3rem;
     padding-left: 0.5rem;
     color: #350E43;
@@ -56,7 +56,7 @@ button:hover{
 }
 
 .input {
-    flex:65%;
+    flex:73%;
     padding: 0.5rem 0.5rem;
     margin-top:0.5rem;
     outline: none;
@@ -72,4 +72,12 @@ button:hover{
 
 .inputError{
     background-color: salmon;
+}
+
+.errorSpan{
+    flex: 100%;
+    color:tomato;
+    font-size: 8pt;
+    padding: 0.2rem 0;
+    font-style: oblique;
 }

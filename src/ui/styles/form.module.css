@@ -17,6 +17,7 @@
     border-radius: 2rem;
     border-top: 5rem solid #350E43;
     position: relative;
+    width: 100%;
 }
 
 .titulocontenedor{
@@ -30,6 +31,9 @@
 }
 
 
+.envia{
+    flex: 100%;
+}
 
 .enlaces{
     display: flex;
